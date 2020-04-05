@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="tests.cpp" />
+    <ClCompile Include="arithmetic\remove_duplicates.cpp">
+      <Filter>arithmetic</Filter>
+    </ClCompile>
+    <ClCompile Include="arithmetic\search_rotate.cpp">
+      <Filter>arithmetic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arithmetic\arithmetic.h">
+      <Filter>arithmetic</Filter>
+    </ClInclude>
+    <ClInclude Include="arithmetic\tool.hpp">
+      <Filter>arithmetic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="arithmetic">
+      <UniqueIdentifier>{2fc91c97-7e0c-4ed6-b417-2e949a2af45d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
